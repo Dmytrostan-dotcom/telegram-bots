@@ -1,0 +1,8 @@
+aiogram
+aiohttp
+aiosqlite
+phonenumbers
+dnspython
+python-dotenv
+telethon
+openai
