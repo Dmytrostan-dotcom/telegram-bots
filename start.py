@@ -4,9 +4,7 @@ import time
 
 bots = [
     "bot.py",
-    "bot(2).py",
-    "forwarder.py",
-    "gipsy.chat.py",
+    "forwarder.py",  
     "sender_bot.py.py",
 ]
 
