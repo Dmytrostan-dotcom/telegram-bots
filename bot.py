@@ -44,14 +44,18 @@ STATS_FILE = "stats.json"
 
 
 def load_admins():
-
     if not os.path.exists(ADMINS_FILE):
-        return [
-            7217920772
-        ]
+        return [7217920772]
 
     with open(ADMINS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+
+    # Если admins.json имеет формат {"ID": true}
+    if isinstance(data, dict):
+        return [int(user_id) for user_id, enabled in data.items() if enabled]
+
+    # Если формат обычного списка [ID, ID]
+    return [int(user_id) for user_id in data]
 
 
 
