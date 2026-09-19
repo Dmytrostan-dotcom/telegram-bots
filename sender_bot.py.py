@@ -15,7 +15,7 @@ from aiogram.exceptions import TelegramForbiddenError, TelegramRetryAfter
 # НАСТРОЙКИ
 # =========================================================
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8863305349:AAGqj01pJhik5AZ-U1szy40n9ECthFd9j3Y")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8863305349:AAFEqQpgs3R9zokAtDWx9L9psljCk6bmoc8")
 
 ADMINS = {
     8326482234,
