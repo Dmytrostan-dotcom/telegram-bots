@@ -32,7 +32,7 @@ class BroadcastState(StatesGroup):
 SPAM = {}
 
 BOT_ACTIVE = True
-TOKEN = "8640513137:AAGFFVZovHuFalA8nZP6ZishLqFo9vM9rhg"
+TOKEN = "8640513137:AAG07zb3Q4GfeU2Lk3JPP4PE1vsIcS5JStk"
 
 GROUP_ID = -1003941822063  # Одессские
 
