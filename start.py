@@ -5,7 +5,7 @@ import time
 bots = [
     "bot.py",
     "forwarder.py",
-    "sender_bot.py.py",
+    "sender_bot.py",
 ]
 
 processes = {}
