@@ -1,3 +1,6 @@
+import os
+import base64
+from pathlib import Path
 import asyncio
 from telethon import TelegramClient, events
 
@@ -6,8 +9,8 @@ from telethon import TelegramClient, events
 # TELEGRAM
 # ==========================
 
-API_ID = 33876323
-API_HASH = "8807feaa2c10beb3f07eb7cee16b75cf"
+API_ID = 35470680
+API_HASH = "9dbc8a6dcf42a35a14e8257ddaf5c90f"
 
 # Канал/группа-источник
 SOURCE = -1004360890430
